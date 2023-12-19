@@ -1,5 +1,36 @@
 <template>
-    <div class="">
+        <!-- <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="" class="flex items-center">
+                <img src="https://media0.giphy.com/media/ejJmQ6FPJrQKVy5QVz/200w.gif?cid=6c09b952fj4z4xt3m1x6l83dl33eu77q2pqqewyw6d73nr4d&ep=v1_gifs_search&rid=200w.gif&ct=g" class="h-8 mr-3" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Nelson Carías</span>
+            </a>
+            
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <router-link to="/">Home</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/tecnologia">Tecnologias</router-link>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+    </nav> -->
+    <div  class="">
+        <!-- <ul class="flex justify-center">
+            <li>
+                <RouterLink to="/"></RouterLink>
+                <RouterLink to="/"></RouterLink>
+            </li>
+        </ul> -->
         <div class="">
             <p class="flex justify-center text-2xl p-5"><b>Hello! 🖐 I'm a software developer</b></p>
             <br>
@@ -12,7 +43,7 @@
             </div>
             <div  class="bg-indigo-600">
                 <div>
-                    <p  class="text-white text-center text-2xl flex justify-center p-5">Hi, I’m Nelson Carías. Nice to meet you.</p>
+                    <p  class="text-white text-center text-2xl flex justify-center p-5">Hi, I'm Nelson Carías. Nice to meet you.</p>
                     <br>
                     <p  class="text-white text-center flex justify-center text-xl">I am a student, eager to learn and improve myself on a professional and personal level.<br>
                                                                             I am also currently a professional internship intern at Seed Code SV where I have gained more <br>
@@ -21,54 +52,7 @@
                 </div>
                 <br>
                 <br>
-                <div class="rounded-lg bg-white ml-32 mr-32">
-                    
-                        <p class="flex justify-center text-2xl p-5"><b>🔧 Technologies and Tools</b></p>
-                        <hr>
-                        <div class="grid grid-cols-8 p-10">
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8 " src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-                                </a>
-                               
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
-                                </a>
-
-
-
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-                                </a>
-                               
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-                                </a>
-                                <a class="p-2">
-                                    <img class=" h-8" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
-                                </a>
-                        </div>
-                </div>
+                
             </div>
         </div> 
     </div>
@@ -87,6 +71,15 @@
 </template>
 
 <script lang="ts" setup>
+
+
+
+
+
+
+
+
+
 
 
 </script>
